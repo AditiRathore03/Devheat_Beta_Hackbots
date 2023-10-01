@@ -12,13 +12,12 @@
   </ul>
 
   <script>
-    // Use JavaScript to insert the filtered data into the page
+    // Using JavaScript to insert the filtered data into the page
     fetch('/displayFilteredData', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      // Include any request data, such as filter criteria, if needed
       body: JSON.stringify({ filteredcoder }),
     })
       .then(response => response.json())
@@ -27,7 +26,7 @@
         
         filteredData.forEach(item => {
           const listItem = document.createElement('li');
-          listItem.textContent = item.name; // Assuming name is a field in the filtered data
+          listItem.textContent = item.name; 
           filteredDataList.appendChild(listItem);
         });
       })
