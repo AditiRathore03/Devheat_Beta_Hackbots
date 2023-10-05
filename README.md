@@ -8,6 +8,7 @@
 - [🧭 Table of contents](#-table-of-contents)
 - [Introduction](#introduction)
 - [Quick Start](#quick-start)
+- [Key features of the website](#key-features-of-the-website)
 - [Frontend](#frontend)
 - [Backend](#backend)
 - [Database](#database)
@@ -47,6 +48,10 @@ It runs on the browser with localhost 3000.
 ```sh
 http://localhost:3000/
 ```
+
+# Key features of the website
+- **Search for Teammates** by applying filters on skills of developers.
+- **Discover Online Hackathons** and get a chance to participate in `hackathons`.
 
 # Frontend
 
