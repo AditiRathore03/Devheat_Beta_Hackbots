@@ -5,7 +5,7 @@ const coder = require('../models/userip'); // Import your Mongoose model
 // Route to handle the POST request from the frontend
 router.post('/updateFilters', async (req, res) => {
   try {
-    const selectedOptions = ['CloudComputing','API','FullStack']; // Split the string into an array
+    const selectedOptions = req.body.selectedOptions.split(',') // Spliting the string into an array
     
     // Update the MongoDB database based on the selected filter options
     // For example, you can perform a database query to filter and update documents
