@@ -60,7 +60,7 @@ http://localhost:3000/
  - CSS<br>
  - FontAwesome<br>
  - Javascript<br><br>
- ![](frontend/images/demo.png)<br><br>
+ ![](screenshots/Screenshot 2023-10-05 213841.png)<br><br>
  ![](frontend/images/demo2.png)<br>
  - The display list of developers `shuffle` according tothe applied `filter by user`.
  ![](frontend/images/demo3.png)<br>
