@@ -8,7 +8,7 @@
 - [🧭 Table of contents](#-table-of-contents)
 - [Introduction](#introduction)
 - [Quick Start](#quick-start)
-- [Key features of the website](#key-features-of-the-website)
+- [Key features](#key-features)
 - [Frontend](#frontend)
 - [Backend](#backend)
 - [Database](#database)
@@ -53,6 +53,7 @@ http://localhost:3000/
 - **Search for Teammates** by applying filters on skills of developers.
 - **Discover Online Hackathons** and get a chance to participate in `hackathons`.
 
+
 # Frontend
 
  - HTML<br>
@@ -64,6 +65,8 @@ http://localhost:3000/
  - The display list of developers `shuffle` according tothe applied `filter by user`.
  ![](frontend/images/demo3.png)<br>
  - User can edit his/her profile
+
+
 # Backend
 
   At the `Backend` of this App, A `Nodejs` server is running, which manages all the `requests` and `responses` from the user. 
@@ -75,6 +78,7 @@ This App Uses Some Node_Modules in order to work properly which include:
   - handles request and response
 
 - For end-to-end encryption here we are not storing the data and hence when the page reloads all the filters disappear.
+
 
 # Database
 
