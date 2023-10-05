@@ -15,7 +15,7 @@
 
 - # Introduction
 
-Welcome to the README file for the "CodeCrush Cafe" website! This document is your comprehensive guide to understanding and using our platform, where hackathon enthusiasts can connect, collaborate, and participate in online hackathons.
+Welcome to the README file for the **CodeCrush Cafe** website! This document is your comprehensive guide to understanding and using our platform, where hackathon enthusiasts can `connect`, `collaborate` and `participate in online hackathons`.
 
 # Quick Start 
 
@@ -56,7 +56,7 @@ http://localhost:3000/
  - Javascript<br><br>
  ![](frontend/images/demo.png)<br><br>
  ![](frontend/images/demo2.png)<br>
- - Chat list shuffles according to the latest messages<br><br>
+ - The display list of developers `shuffle` according tothe applied `filter by user`.
  ![](frontend/images/demo3.png)<br>
  - User can edit his/her profile
 # Backend
