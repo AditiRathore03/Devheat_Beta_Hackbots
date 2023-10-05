@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Multiple Options Select Menu </title>
+
+        <link rel="stylesheet" href="create_team.css">
+                                
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        
+    </head>
+    <body>
+
+      <h2 class="tag">Create your team now!</h2>
+            <div class="box">
+                <div class="text">
+                <div class="input">
+                    <label class="name" style="font-size: 33px;">Hackathon Name<span class="req"></span> </label>
+                    <input type="text" class="form-control" style="font-size: 25px; width:610px; height: 80px;" id="first_name" required data-validation-required-message="Please enter your name." autocomplete="off">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="input">
+                    <label class="name" style="font-size: 33px;">Number of participants<span class="req"></span> </label>
+                    <input type="text" class="form-control" style="font-size: 25px; width:610px; height: 80px;" id="first_name" required data-validation-required-message="Please enter your name." autocomplete="off">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  </div>
+
+            
+            <div class="container">
+           
+            <div class="select-btn">
+                <span class="btn-text" style="margin:23px; padding-top: 25px;">Select Domains</span>
+                <span class="arrow-dwn" style="text-align: center; color: aliceblue; margin:3px;">
+                    <i class="fa-solid fa-chevron-down" style="margin:5px;"></i>
+                </span>
+            </div>
+            <div><form id="myForm" action="/updateFilters" method="post">
+                <div class="contain">
+                    <div id="container">
+                 
+                    </div>
+                    <input type="hidden" name="selectedOptions" id="selectedOptions"/>
+                    <div class="search"><button type="submit" style="height: 56px; width:305px; font-size:24px; background-color: #4070f4;  color: white; font-size: 27px;  border-radius: 15px;">Search</button>
+                    </div>
+                </div>
+                
+            </form></div>
+            
+
+            <ul class="list-items">
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">Backend</span>
+                </li>
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">Frontend</span>
+                </li>
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">Full Stack</span>
+                </li>
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">Android</span>
+                </li>
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">AI/ML</span>
+                </li>
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">Cloud</span>
+                </li>
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">Blockchain</span>
+                </li>
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">CyberSecurity</span>
+                </li>
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">SQL Database</span>
+                </li>
+                <li class="item">
+                    <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                    </span>
+                    <span class="item-text">API</span>
+                </li>
+            </ul>
+        </div>
+        </div>
+
+        <!-- JavaScript -->
+        <script src="create_team.js"></script>
+    </body>
+</html>
