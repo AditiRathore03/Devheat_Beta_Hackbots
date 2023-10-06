@@ -49,22 +49,35 @@ It runs on the browser with localhost 3000.
 http://localhost:3000/
 ```
 
-# Key features of the website
+
+# Key features
 - **Search for Teammates** by applying filters on skills of developers.
 - **Discover Online Hackathons** and get a chance to participate in `hackathons`.
 
 
 # Frontend
-
  - HTML<br>
  - CSS<br>
  - FontAwesome<br>
  - Javascript<br><br>
- ![](frontend/images/demo.png)<br><br>
- ![](frontend/images/demo2.png)<br>
- - The display list of developers `shuffle` according tothe applied `filter by user`.
- ![](frontend/images/demo3.png)<br>
- - User can edit his/her profile
+ 
+ -**`Home page` of the website.**
+
+ ![](screenshots/Screenshot%202023-10-05%20213841.png)<br><br>
+
+
+
+ - **You can fill the form details for `organizing a hackathon`.**
+   
+ ![](screenshots/Screenshot%202023-10-05%20214030.png)<br>
+ 
+
+
+
+ - **Here you `create your team` for hackathons.**
+   
+ ![](screenshots/Screenshot%202023-10-05%20215201.png)<br>
+ 
 
 
 # Backend
